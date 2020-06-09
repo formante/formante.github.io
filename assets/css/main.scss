@@ -23,7 +23,13 @@ header {
   position: relative;
   overflow: hidden;
   background: #548688
-    linear-gradient(20deg, #89e1eb 0%, #548688 28%, #aba690 70%, #ffc598 100%)
+    linear-gradient(
+      20deg,
+      rgba(#89e1eb, 0.8) 0%,
+      rgba(#548688, 0.8) 28%,
+      rgba(#aba690, 0.8) 70%,
+      rgba(#ffc598, 0.8) 100%
+    )
     0% 0% no-repeat padding-box;
   @include xs {
     height: auto;
@@ -34,7 +40,7 @@ header {
     top: 0;
     left: 0;
     min-width: 100%;
-    opacity: 0.1;
+    opacity: 0.25;
     min-height: 110%;
   }
   .header {
