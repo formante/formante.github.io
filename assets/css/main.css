@@ -734,6 +734,12 @@ footer .copyright p {
   font: 300 18px/39px Roboto;
   letter-spacing: 0;
   color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+footer .copyright p a {
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
